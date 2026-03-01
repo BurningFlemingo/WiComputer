@@ -5,45 +5,67 @@ entity top_tb is
 end entity top_tb;
 
 architecture tb of top_tb is 
-		signal s_clk : std_logic;
+		signal s_subtract : std_logic;
+	
+		signal s_a : std_logic_vector(7 downto 0);
+		signal s_b : std_logic_vector(7 downto 0);
+	
+		signal s_result : std_logic_vector(7 downto 0);
 
-		signal s_x : std_logic_vector(15 downto 0);
-		signal s_y : std_logic_vector(15 downto 0);
-		
-		signal s_write_en : std_logic;
-		signal s_px_color : std_logic;
 begin 
 
-	framebuffer_controller_inst: entity work.framebuffer_controller
-	 port map(
-	    i_clk => s_clk,
-	    i_x => s_x(8 downto 0),
-	    i_y => s_y(9 downto 0),
-	    i_write_en => s_write_en,
-	    i_data => '1',
-	    o_data => s_px_color
-	);
-
-	clock_proc: process 
-	begin 
-		s_clk <= '0';
-		wait for 10 ns;
-		
-		s_clk <= '1';
-		wait for 10 ns;
-	end process clock_proc;
+	ripple_adder_inst: entity work.ripple_adder 
+		generic map(
+			g_bit_size => 8
+		)
+		port map(
+			i_subtract => s_subtract,
+			i_a => s_a,
+			i_b => s_b,
+			o_result => s_result
+		);
 
 	stim_proc: process 
 	begin 
-		s_x <= "0000000000000000";
-		s_y <= "0000000000000000";
-		s_write_en <= '0';
+		s_subtract <= '0';
+		
+		s_a <= "00000000";
+		s_b <= "00000000";
 
 		wait for 20 ns;
 
-		s_x <= "0000000000000001";
-		s_y <= "0000000000000001";
-		s_write_en <= '1';
+		s_subtract <= '0';
+		
+		s_a <= "00000001";
+		s_b <= "00000001";
+
+		wait for 20 ns;
+
+		s_subtract <= '0';
+		
+		s_a <= "01111111";
+		s_b <= "00000001";
+
+		wait for 20 ns;
+
+		s_subtract <= '1';
+		
+		s_a <= "00000010";
+		s_b <= "00000001";
+
+		wait for 20 ns;
+
+		s_subtract <= '0';
+		
+		s_a <= "11111111";
+		s_b <= "00000001";
+
+		wait for 20 ns;
+
+		s_subtract <= '1';
+		
+		s_a <= "11111111";
+		s_b <= "00000001";
 
 		wait for 20 ns;
 		

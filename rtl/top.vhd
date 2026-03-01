@@ -27,7 +27,7 @@ architecture rtl of top is
 	
 	signal s_vs : std_logic;
 
-	signal s_px_color : std_logic;
+	signal s_px_color : std_logic_vector(11 downto 0); -- rrrrggggbbbb
 	signal s_n_vs : std_logic;
 begin 
 	s_rst <= not r_n_rst_sync;
@@ -39,9 +39,9 @@ begin
 	    i_clk => i_clk,
 	    i_rst => s_rst,
 		
-	    i_r => (3 downto 0 => s_px_color),
-	    i_g => (3 downto 0 => s_px_color),
-	    i_b => (3 downto 0 => s_px_color),
+	    i_r => s_px_color(3 downto 0),
+	    i_g => s_px_color(7 downto 4),
+	    i_b => s_px_color(11 downto 8),
 		
 	    o_r => o_r,
 	    o_g => o_g,
@@ -57,10 +57,10 @@ begin
 	framebuffer_controller_inst: entity work.framebuffer_controller
 	 port map(
 	    i_clk => i_clk,
-	    i_x => s_x(8 downto 0),
-	    i_y => s_y(9 downto 0),
+	    i_x => s_x(9 downto 2),
+	    i_y => s_y(8 downto 2),
 	    i_write_en => '1',
-	    i_data => '1',
+	    i_data => s_y(6 downto 1) & s_x(7 downto 2),
 	    o_data => s_px_color
 	);
 

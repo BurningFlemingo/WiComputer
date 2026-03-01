@@ -23,11 +23,10 @@ architecture rtl of ripple_adder is
 begin 
 	s_carry(0) <= i_subtract;
 	o_result <= s_result;
+	s_fixed_b <= i_b xor (g_bit_size-1 downto 0 => i_subtract);
 	
-	for i in g_bit_size-1 downto 0 generate 
-		s_xored_ab(i) <= i_a(i) xor i_b(i);
-		
-		s_result(i) <= s_carry(i) xor s_xored_ab(i);
-		s_carry(i+1) <= (s_carry(i) and s_xored_ab(i)) or (i_a(i) and i_b(i))
-	end generate;
+	s_xored_ab <= i_a xor s_fixed_b;
+
+	s_carry(g_bit_size downto 1) <= (s_carry(g_bit_size-1 downto 0) and s_xored_ab) or (i_a and s_fixed_b);
+	s_result <= s_carry(g_bit_size-1 downto 0) xor s_xored_ab;
 end architecture rtl; 

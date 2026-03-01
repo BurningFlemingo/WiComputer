@@ -87,6 +87,8 @@ set_location_assignment PIN_P4 -to o_b[2]
 set_location_assignment PIN_N2 -to o_b[3]
 set_location_assignment PIN_N1 -to o_vs
 set_instance_assignment -name IO_STANDARD "3.3 V SCHMITT TRIGGER" -to i_n_rst_async
+set_global_assignment -name VHDL_FILE ../rtl/ripple_adder.vhd
+set_global_assignment -name VHDL_FILE ../rtl/instruction_mem.vhd
 set_global_assignment -name VHDL_FILE ../rtl/decoder.vhd
 set_global_assignment -name VHDL_FILE ../rtl/framebuffer_controller.vhd
 set_global_assignment -name VHDL_FILE ../rtl/vga_controller.vhd

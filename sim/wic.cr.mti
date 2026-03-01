@@ -14,17 +14,18 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Loading package std_logic_1164
 -- Compiling entity top_tb
 -- Compiling architecture tb of top_tb
--- Loading package NUMERIC_STD
--- Loading entity framebuffer_controller
+-- Loading entity ripple_adder
 
-} {} {}} C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd
+} {} {}} C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity framebuffer_controller
+-- Compiling architecture rtl of framebuffer_controller
 -- Loading package altera_mf_components
--- Compiling entity framebuffer
--- Compiling architecture SYN of framebuffer
+-- Loading entity framebuffer
 
 } {} {}} C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
