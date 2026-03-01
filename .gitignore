@@ -1,3 +1,4 @@
 Quartus/*
 !Quartus/*.qsf
 !Quartus/*.qpf
+!Quartus/*.sdc
