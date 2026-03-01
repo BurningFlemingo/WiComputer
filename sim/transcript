@@ -2881,3 +2881,368 @@ run
 #    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+run
+# Compile of top_tb.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of control_unit.vhd was successful.
+# Compile of data_mem.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of framebuffer_controller.vhd was successful.
+# Compile of instruction_mem.vhd was successful.
+# Compile of register_file.vhd was successful.
+# Compile of ripple_adder.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of vga_controller.vhd was successful.
+# Compile of framebuffer.vhd was successful.
+# 12 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_tb(tb)
+# Loading work.top(rtl)
+# Loading work.ripple_adder(rtl)
+# Loading work.instruction_mem(rtl)
+# Loading work.control_unit(rtl)
+# Loading work.alu(rtl)
+# Loading work.register_file(rtl)
+# Loading work.data_mem(rtl)
+# Loading work.framebuffer_controller(rtl)
+# Loading work.framebuffer(syn)
+# Loading work.vga_controller(rtl)
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+add wave -position insertpoint sim:/top_tb/top_inst/register_file_inst/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+# Compile of top_tb.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of control_unit.vhd was successful.
+# Compile of data_mem.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of framebuffer_controller.vhd was successful.
+# Compile of instruction_mem.vhd was successful.
+# Compile of register_file.vhd was successful.
+# Compile of ripple_adder.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of vga_controller.vhd was successful.
+# Compile of framebuffer.vhd was successful.
+# 12 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_tb(tb)
+# Loading work.top(rtl)
+# Loading work.ripple_adder(rtl)
+# Loading work.instruction_mem(rtl)
+# Loading work.control_unit(rtl)
+# Loading work.alu(rtl)
+# Loading work.register_file(rtl)
+# Loading work.data_mem(rtl)
+# Loading work.framebuffer_controller(rtl)
+# Loading work.framebuffer(syn)
+# Loading work.vga_controller(rtl)
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+# Compile of top_tb.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of control_unit.vhd was successful.
+# Compile of data_mem.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of framebuffer_controller.vhd was successful.
+# Compile of instruction_mem.vhd was successful.
+# Compile of register_file.vhd was successful.
+# Compile of ripple_adder.vhd was successful.
+# Compile of top.vhd was successful.
+# Compile of vga_controller.vhd was successful.
+# Compile of framebuffer.vhd was successful.
+# 12 compiles, 0 failed with no errors.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+# ** Error: Acs sdne.
+# 
+#        Unable to replace existing ini file (C:/Dev/Projects/WiComputer/sim/wik.mpf).  File can not be renamed.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.top_tb(tb)
+# Loading work.top(rtl)
+# Loading work.ripple_adder(rtl)
+# Loading work.instruction_mem(rtl)
+# Loading work.control_unit(rtl)
+# Loading work.alu(rtl)
+# Loading work.register_file(rtl)
+# Loading work.data_mem(rtl)
+# Loading work.framebuffer_controller(rtl)
+# Loading work.framebuffer(syn)
+# Loading work.vga_controller(rtl)
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Error: Error: altsyncram vhdl simulation model is deprecated for Stratix 10 onwards family. Instantiate altera_syncram for vhdl simulation.
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst/framebuffer_controller_inst/framebuffer_inst/altsyncram_component
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/register_file_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /top_tb/top_inst/instruction_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 3  Instance: /top_tb/top_inst/data_mem_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 8  Instance: /top_tb/top_inst/data_mem_inst

@@ -1,14 +1,4 @@
-C:/Dev/Projects/WiComputer/rtl/data_mem.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/data_mem.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity data_mem
--- Compiling architecture rtl of data_mem
--- Loading entity framebuffer_controller
-
-} {} {}} C:/Dev/Projects/WiComputer/rtl/control_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/control_unit.vhd
+C:/Dev/Projects/WiComputer/rtl/control_unit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/control_unit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -87,15 +77,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Compiling architecture rtl of framebuffer_controller
 -- Loading package altera_mf_components
 -- Loading entity framebuffer
-
-} {} {}} C:/Dev/Projects/WiComputer/rtl/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/alu.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity alu
--- Compiling architecture rtl of alu
--- Loading entity ripple_adder
 
 } {} {}} C:/Dev/Projects/WiComputer/rtl/register_file.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/register_file.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021

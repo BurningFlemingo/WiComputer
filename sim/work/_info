@@ -10,10 +10,10 @@ z2
 cModel Technology
 dC:/intelFPGA_pro/21.1
 Ealu
-Z0 w1772361974
+Z0 w1772375716
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 385
+!i122 421
 Z3 dC:/Dev/Projects/WiComputer/sim
 Z4 8C:/Dev/Projects/WiComputer/rtl/alu.vhd
 Z5 FC:/Dev/Projects/WiComputer/rtl/alu.vhd
@@ -23,9 +23,9 @@ V>Gl<z2>G_;VNcFV>SGaWU1
 !s100 m2EnP15f=5XeN193OB_Y91
 Z6 OV;C;2021.1;73
 32
-Z7 !s110 1772369250
+Z7 !s110 1772375834
 !i10b 1
-Z8 !s108 1772369250.000000
+Z8 !s108 1772375834.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/alu.vhd|
 Z10 !s107 C:/Dev/Projects/WiComputer/rtl/alu.vhd|
 !i113 1
@@ -36,11 +36,11 @@ Z13 DEx4 work 12 ripple_adder 0 22 lhA@=_hgEC]zZ8nOU^am91
 R1
 R2
 Z14 DEx4 work 3 alu 0 22 >Gl<z2>G_;VNcFV>SGaWU1
-!i122 385
+!i122 421
 l26
 L20 32
-V_JUdDijjzPPYNTU[WPZkK0
-!s100 =PS5iSYnPd=XWJ3lWJTfW3
+V]oiih<MaH@@SiKoXC?ZBf1
+!s100 8Kle^6Ac1:@>=Rb6gPzZo3
 R6
 32
 R7
@@ -55,7 +55,7 @@ Econtrol_unit
 Z15 w1772362514
 R1
 R2
-!i122 386
+!i122 422
 R3
 Z16 8C:/Dev/Projects/WiComputer/rtl/control_unit.vhd
 Z17 FC:/Dev/Projects/WiComputer/rtl/control_unit.vhd
@@ -77,7 +77,7 @@ Artl
 R1
 R2
 Z20 DEx4 work 12 control_unit 0 22 90>C;26Bk2N]2O3l9LK5l2
-!i122 386
+!i122 422
 l22
 L20 30
 Vf3il]IK0Rijfze[_G;mcK1
@@ -97,7 +97,7 @@ Z21 w1772367125
 Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R1
 R2
-!i122 387
+!i122 423
 R3
 Z23 8C:/Dev/Projects/WiComputer/rtl/data_mem.vhd
 Z24 FC:/Dev/Projects/WiComputer/rtl/data_mem.vhd
@@ -107,55 +107,55 @@ Vid3`?2LFlB4[mZ43dRn9C1
 !s100 h5;l`d:fB[fYX;^>3DVOK3
 R6
 32
-R7
+Z25 !s110 1772375835
 !i10b 1
-R8
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/data_mem.vhd|
-Z26 !s107 C:/Dev/Projects/WiComputer/rtl/data_mem.vhd|
+Z26 !s108 1772375835.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/data_mem.vhd|
+Z28 !s107 C:/Dev/Projects/WiComputer/rtl/data_mem.vhd|
 !i113 1
 R11
 R12
 Artl
-Z27 DEx4 work 22 framebuffer_controller 0 22 Fzbm1CB:nXdf2=e[C<1WD2
+Z29 DEx4 work 22 framebuffer_controller 0 22 Fzbm1CB:nXdf2=e[C<1WD2
 R22
 R1
 R2
-Z28 DEx4 work 8 data_mem 0 22 id3`?2LFlB4[mZ43dRn9C1
-!i122 387
+Z30 DEx4 work 8 data_mem 0 22 id3`?2LFlB4[mZ43dRn9C1
+!i122 423
 l32
 L25 39
 VPkbzRgDjXYm=PRB8=5j_V3
 !s100 RAT::Lz3[A>b0V4QbcXK`2
 R6
 32
-R7
-!i10b 1
-R8
 R25
+!i10b 1
 R26
+R27
+R28
 !i113 1
 R11
 R12
 Edecoder
-Z29 w1772344206
+Z31 w1772344206
 R22
 R1
 R2
-!i122 388
+!i122 424
 R3
-Z30 8C:/Dev/Projects/WiComputer/rtl/decoder.vhd
-Z31 FC:/Dev/Projects/WiComputer/rtl/decoder.vhd
+Z32 8C:/Dev/Projects/WiComputer/rtl/decoder.vhd
+Z33 FC:/Dev/Projects/WiComputer/rtl/decoder.vhd
 l0
 L5 1
 V^=E69CPfgP8LaE3=nfb8W3
 !s100 cLANU2dnag:F]fM0JSQJZ0
 R6
 32
-R7
+R25
 !i10b 1
-R8
-Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/decoder.vhd|
-Z33 !s107 C:/Dev/Projects/WiComputer/rtl/decoder.vhd|
+R26
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/decoder.vhd|
+Z35 !s107 C:/Dev/Projects/WiComputer/rtl/decoder.vhd|
 !i113 1
 R11
 R12
@@ -164,59 +164,59 @@ R22
 R1
 R2
 DEx4 work 7 decoder 0 22 ^=E69CPfgP8LaE3=nfb8W3
-!i122 388
+!i122 424
 l13
 L12 21
 VO1lL?LKVkf9[>_fCzT]l03
 !s100 c2UhcQS3Q7z1CJk6?Q1?>0
 R6
 32
-R7
+R25
 !i10b 1
-R8
-R32
-R33
+R26
+R34
+R35
 !i113 1
 R11
 R12
 Eframebuffer
-Z34 w1772363515
-Z35 DPx9 altera_mf 20 altera_mf_components 0 22 MILGFK[L`bXcS4=YT<HBH2
+Z36 w1772363515
+Z37 DPx9 altera_mf 20 altera_mf_components 0 22 MILGFK[L`bXcS4=YT<HBH2
 R1
 R2
-!i122 395
+!i122 431
 R3
-Z36 8C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd
-Z37 FC:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd
+Z38 8C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd
+Z39 FC:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd
 l0
 L43 1
 VA>g?2Nnf01ie8HET6HUB^1
 !s100 if<0gdgJD3BcDIZlE8EC;0
 R6
 32
-Z38 !s110 1772369251
+R25
 !i10b 1
-Z39 !s108 1772369251.000000
+R26
 Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd|
 Z41 !s107 C:/Dev/Projects/WiComputer/Quartus/framebuffer.vhd|
 !i113 1
 R11
 R12
 Asyn
-R35
+R37
 R1
 R2
 Z42 DEx4 work 11 framebuffer 0 22 A>g?2Nnf01ie8HET6HUB^1
-!i122 395
+!i122 431
 l60
 Z43 L56 42
 Z44 VAET6RJUlKLQ3hDJzT60D:0
 Z45 !s100 M6j72RMOMeFX;m4NkF0G01
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R40
 R41
 !i113 1
@@ -227,7 +227,7 @@ Z46 w1772367466
 R22
 R1
 R2
-!i122 389
+!i122 425
 R3
 Z47 8C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd
 Z48 FC:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd
@@ -237,42 +237,42 @@ VFzbm1CB:nXdf2=e[C<1WD2
 !s100 nlh^<=]lnlmNj6@A7lHkQ3
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd|
 Z50 !s107 C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd|
 !i113 1
 R11
 R12
 Artl
-R35
+R37
 R42
 R22
 R1
 R2
-R27
-!i122 389
+R29
+!i122 425
 l25
 L19 22
 VT6Bk?5YP5D:`7aGG?Jhd30
 !s100 :AMIZYgAclBIHN3Ob3?o]2
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R49
 R50
 !i113 1
 R11
 R12
 Einstruction_mem
-Z51 w1772369247
+Z51 w1772375613
 R22
 R1
 R2
-!i122 390
+!i122 426
 R3
 Z52 8C:/Dev/Projects/WiComputer/rtl/instruction_mem.vhd
 Z53 FC:/Dev/Projects/WiComputer/rtl/instruction_mem.vhd
@@ -282,9 +282,9 @@ V<XTodlJloQdSBnJ62;Lm73
 !s100 XDGTJ0A2mzQ2OK]]`2z7L0
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/instruction_mem.vhd|
 Z55 !s107 C:/Dev/Projects/WiComputer/rtl/instruction_mem.vhd|
 !i113 1
@@ -295,16 +295,16 @@ R22
 R1
 R2
 Z56 DEx4 work 15 instruction_mem 0 22 <XTodlJloQdSBnJ62;Lm73
-!i122 390
+!i122 426
 l21
 L13 17
-V7SH<<oHI87l9iY5nGh13;0
-!s100 2`7ZKmjAI0W^@FzXQc]FZ3
+VSU>^9f9Rk6>X]=R;<:6<C0
+!s100 W:7`Q8R_b0K[0:lDfCkHY1
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R54
 R55
 !i113 1
@@ -315,7 +315,7 @@ Z57 w1772361858
 R22
 R1
 R2
-!i122 391
+!i122 427
 R3
 Z58 8C:/Dev/Projects/WiComputer/rtl/register_file.vhd
 Z59 FC:/Dev/Projects/WiComputer/rtl/register_file.vhd
@@ -325,9 +325,9 @@ VVM87]Q]YzZ;4^QiU2_AY03
 !s100 GTigoz8`BGi:`RzWc5<H;3
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/register_file.vhd|
 Z61 !s107 C:/Dev/Projects/WiComputer/rtl/register_file.vhd|
 !i113 1
@@ -338,16 +338,16 @@ R22
 R1
 R2
 Z62 DEx4 work 13 register_file 0 22 VM87]Q]YzZ;4^QiU2_AY03
-!i122 391
+!i122 427
 l26
 L23 21
 VfiJN<4LLXTX<E8SWRUAz13
 !s100 Z[;dJ3;OhV950N:^m4?E22
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R60
 R61
 !i113 1
@@ -357,7 +357,7 @@ Eripple_adder
 Z63 w1772349509
 R1
 R2
-!i122 392
+!i122 428
 R3
 Z64 8C:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd
 Z65 FC:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd
@@ -367,9 +367,9 @@ VlhA@=_hgEC]zZ8nOU^am91
 !s100 HOQY@WL8Di=CYTGd1j:Rc1
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd|
 Z67 !s107 C:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd|
 !i113 1
@@ -379,16 +379,16 @@ Artl
 R1
 R2
 R13
-!i122 392
+!i122 428
 l23
 L18 15
 VG<>Oj176hh^m@_;4UoPIU2
 !s100 L^8nFa?e8B^mAKHUX>HmD1
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R66
 R67
 !i113 1
@@ -399,7 +399,7 @@ Z68 w1772368875
 R22
 R1
 R2
-!i122 393
+!i122 429
 R3
 Z69 8C:/Dev/Projects/WiComputer/rtl/top.vhd
 Z70 FC:/Dev/Projects/WiComputer/rtl/top.vhd
@@ -409,9 +409,9 @@ VQ`m=bKg]e<z`b`;6>[7J=1
 !s100 :o2:eiNe8j=g3CFk2?7UA0
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/top.vhd|
 Z72 !s107 C:/Dev/Projects/WiComputer/rtl/top.vhd|
 !i113 1
@@ -419,7 +419,7 @@ R11
 R12
 Artl
 Z73 DEx4 work 14 vga_controller 0 22 fhAnY9;T<hdXN]2d@:0:H1
-R28
+R30
 R62
 R14
 R20
@@ -429,16 +429,16 @@ R22
 R1
 R2
 Z74 DEx4 work 3 top 0 22 Q`m=bKg]e<z`b`;6>[7J=1
-!i122 393
+!i122 429
 l68
 L19 194
 Vm[cLU5bOiITk9bZC>fe3o1
 !s100 @c_ioSA[aoBzE_CBXREQc2
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R71
 R72
 !i113 1
@@ -448,7 +448,7 @@ Etop_tb
 Z75 w1772364972
 R1
 R2
-!i122 384
+!i122 420
 R3
 Z76 8C:/Dev/Projects/WiComputer/sim/top_tb.vhd
 Z77 FC:/Dev/Projects/WiComputer/sim/top_tb.vhd
@@ -472,7 +472,7 @@ R74
 R1
 R2
 DEx4 work 6 top_tb 0 22 He4LeNbz8FZ[JO]8hHiGc1
-!i122 384
+!i122 420
 l17
 L7 41
 VT1hSh`R7e9QgQgiPJ:F]]0
@@ -492,7 +492,7 @@ Z80 w1772363203
 R22
 R1
 R2
-!i122 394
+!i122 430
 R3
 Z81 8C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd
 Z82 FC:/Dev/Projects/WiComputer/rtl/vga_controller.vhd
@@ -502,9 +502,9 @@ VfhAnY9;T<hdXN]2d@:0:H1
 !s100 1UkDi4<ZL^8WzEHLb2M=h3
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd|
 Z84 !s107 C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd|
 !i113 1
@@ -515,16 +515,16 @@ R22
 R1
 R2
 R73
-!i122 394
+!i122 430
 l53
 L28 71
 V]4V?iVoFo1V5ac0PHjMiR3
 !s100 I>i]Hh3Jc`n^VMCZA`l^03
 R6
 32
-R38
+R25
 !i10b 1
-R39
+R26
 R83
 R84
 !i113 1

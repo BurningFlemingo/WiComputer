@@ -1,12 +1,18 @@
-# 0 (px_x)
-# 4 (px_y)
-# 8->60 (main memory) 
-# 32,768 (framebuffer) 
+addi $t0, $zero, -32768  # framebuffer base
+addi $t1, $zero, 0       # y counter
+addi $t2, $zero, 120     # height (rows)
+addi $t4, $zero, 160     # width (cols)
 
-addi $t1, $zero, -32768
+loop_y:
+    addi $t3, $zero, 0   # x counter
+loop_x:
+    xor $t5, $t1, $t3    # color = x XOR y
+    sw $t5, ($t0)        # write pixel
+    addi $t0, $t0, 1     # advance framebuffer
+    addi $t3, $t3, 1
+    slt $s1, $t3, $t4
+    bne $s1, $zero, loop_x
 
-loop:
-add $t2, $zero, $t1
 addi $t1, $t1, 1
-sw $t2, ($t1)
-beq $zero, $zero, loop
+slt $s0, $t1, $t2
+bne $s0, $zero, loop_y

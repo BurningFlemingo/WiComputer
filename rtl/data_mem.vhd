@@ -42,7 +42,7 @@ begin
 	framebuffer_controller_inst: entity work.framebuffer_controller
 	 port map(
 	    i_clk => i_clk,
-		i_read_addr => i_px_addr(14 downto 0),
+		i_read_addr => '0' & i_px_addr(15 downto 2),
 		i_write_addr => i_addr(14 downto 0),
 	    i_write_en => s_write_framebuffer,
 	    i_data => i_data(11 downto 0),

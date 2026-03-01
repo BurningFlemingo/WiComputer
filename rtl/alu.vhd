@@ -27,7 +27,7 @@ begin
 	o_result <= s_result;
 	
 	s_xor <= i_a xor i_b;
-	s_slt <= (31 downto 0 => s_sum(31));
+	s_slt <= (31 downto 1 => '0') & s_sum(31);
 	
 	ripple_adder_inst: entity work.ripple_adder
 	 generic map(
