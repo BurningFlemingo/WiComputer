@@ -7,33 +7,12 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb 
 -- Compiling entity decoder
 -- Compiling architecture rtl of decoder
 
-} {} {}} C:/Dev/Projects/WiComputer/sim/top_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/sim/top_tb.vhd
+} {} {}} C:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/ripple_adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity top_tb
--- Compiling architecture tb of top_tb
--- Loading entity ripple_adder
-
-} {} {}} C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/framebuffer_controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity framebuffer_controller
--- Compiling architecture rtl of framebuffer_controller
--- Loading package altera_mf_components
--- Loading entity framebuffer
-
-} {} {}} C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Dev/Projects/WiComputer/rtl/vga_controller.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 2021.1 Compiler 2021.02 Feb  3 2021
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity vga_controller
--- Compiling architecture rtl of vga_controller
+-- Compiling entity ripple_adder
+-- Compiling architecture rtl of ripple_adder
 
 } {} {}}

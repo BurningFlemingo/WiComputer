@@ -18,6 +18,8 @@ entity vga_controller is
 		o_x : out std_logic_vector(15 downto 0);
 		o_y : out std_logic_vector(15 downto 0);
 
+		o_px_addr : out std_logic_vector(15 downto 0);
+
 		o_hs : out std_logic;
 		o_vs : out std_logic
 	);
@@ -41,6 +43,8 @@ architecture rtl of vga_controller is
 	
 	signal r_px_ctr : integer := 0;
 	signal r_line_ctr : integer := 0;
+
+	signal r_total_px_ctr : integer := 0;
 	
 	signal r_px_tick : std_logic := '0';
 	
@@ -58,6 +62,8 @@ begin
 
 	o_x <= std_logic_vector(to_unsigned(r_px_ctr, 16)) when s_active_video = '1' else (others => '0'); 
 	o_y <= std_logic_vector(to_unsigned(r_line_ctr, 16)) when s_active_video = '1' else (others => '0'); 
+
+	o_px_addr <= std_logic_vector(to_unsigned(r_total_px_ctr, 16)) when s_active_video = '1' else (others => '0');
 	
 	process(i_clk, i_rst) 
 	begin 
@@ -65,10 +71,13 @@ begin
 			r_px_tick <= '0';
 			r_px_ctr <= 0;
 			r_line_ctr <= 0;
+			r_total_px_ctr <= 0;
 		elsif rising_edge(i_clk) then 
 			r_px_tick <= not r_px_tick;
 			
 			if r_px_tick = '1' then 
+				r_total_px_ctr <= r_total_px_ctr+1;
+				
 				if r_px_ctr < c_px_per_line-1 then 
 					r_px_ctr <= r_px_ctr+1;
 				else 
@@ -78,6 +87,7 @@ begin
 						r_line_ctr <= r_line_ctr+1;
 					else
 						r_line_ctr <= 0;
+						r_total_px_ctr <= 0;
 					end if;
 				end if; 
 			end if;

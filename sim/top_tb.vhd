@@ -5,73 +5,43 @@ entity top_tb is
 end entity top_tb;
 
 architecture tb of top_tb is 
-		signal s_subtract : std_logic;
-	
-		signal s_a : std_logic_vector(7 downto 0);
-		signal s_b : std_logic_vector(7 downto 0);
-	
-		signal s_result : std_logic_vector(7 downto 0);
+	signal s_clk : std_logic;
+	signal s_n_rst_async : std_logic;
 
+	signal s_r : std_logic_vector(3 downto 0);
+	signal s_g : std_logic_vector(3 downto 0);
+	signal s_b : std_logic_vector(3 downto 0);
+	
+	signal s_hs : std_logic;
+	signal s_vs : std_logic;
 begin 
 
-	ripple_adder_inst: entity work.ripple_adder 
-		generic map(
-			g_bit_size => 8
-		)
-		port map(
-			i_subtract => s_subtract,
-			i_a => s_a,
-			i_b => s_b,
-			o_result => s_result
-		);
-
-	stim_proc: process 
-	begin 
-		s_subtract <= '0';
+	top_inst: entity work.top
+	 port map(
+		i_clk => s_clk, 
+		i_n_rst_async => s_n_rst_async, 
+		o_r => s_r, 
+		o_g => s_g, 
+		o_b => s_b, 
+		o_hs => s_hs,
+		o_vs => s_vs
+	);
+	
+	rst_proc: process
+	begin
+		s_n_rst_async <= '0';
+		wait for 50 ns; 
 		
-		s_a <= "00000000";
-		s_b <= "00000000";
+		s_n_rst_async <= '1';
 
-		wait for 20 ns;
-
-		s_subtract <= '0';
-		
-		s_a <= "00000001";
-		s_b <= "00000001";
-
-		wait for 20 ns;
-
-		s_subtract <= '0';
-		
-		s_a <= "01111111";
-		s_b <= "00000001";
-
-		wait for 20 ns;
-
-		s_subtract <= '1';
-		
-		s_a <= "00000010";
-		s_b <= "00000001";
-
-		wait for 20 ns;
-
-		s_subtract <= '0';
-		
-		s_a <= "11111111";
-		s_b <= "00000001";
-
-		wait for 20 ns;
-
-		s_subtract <= '1';
-		
-		s_a <= "11111111";
-		s_b <= "00000001";
-
-		wait for 20 ns;
-		
 		wait;
-		
-	end process stim_proc;
-
-
+	end process rst_proc;
+	
+	clk_proc: process
+	begin
+		s_clk <= '0'; 
+		wait for 10 ns; 
+		s_clk <= '1'; 
+		wait for 10 ns;
+	end process clk_proc;
 end architecture tb;
