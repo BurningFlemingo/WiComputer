@@ -14,7 +14,7 @@ architecture rtl of instruction_mem is
 	type t_byte_arr is array (natural range<>) of std_logic_vector(7 downto 0);
 	
 	constant c_instruction_rom : t_byte_arr(0 to 1023) := (
-		x"20", x"09", x"80", x"00",x"20", x"0a", x"ff", x"ff",x"21", x"29", x"00", x"01",x"ad", x"2a", x"00", x"00",x"10", x"00", x"ff", x"fd", others => x"00"
+		x"20",x"09",x"80",x"00",x"00",x"09",x"50",x"20",x"21",x"29",x"00",x"01",x"ad",x"2a",x"00",x"00",x"10",x"00",x"ff",x"fc", others => x"00"
 	);
 
 	signal s_masked_addr : std_logic_vector(9 downto 0);
